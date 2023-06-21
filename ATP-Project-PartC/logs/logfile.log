@@ -1,0 +1,55 @@
+
+2023-06-21 18:42:20 INFO  Main:30 - Application started
+2023-06-21 18:42:20 ERROR Main:31 - An error occurred
+2023-06-21 18:42:26 INFO  MyModel:129 - Maze Generator Properties : 
+2023-06-21 18:42:26 INFO  MyModel:130 - Number of Rows : 11
+2023-06-21 18:42:26 INFO  MyModel:131 - Number of Columns : 11
+2023-06-21 18:42:42 INFO  MyModel:287 - Maze Solver Properties : threadPoolSize=2
+mazeSearchingAlgorithm=BreadthFirstSearch
+mazeGeneratingAlgorithm=MyMazeGenerator
+2023-06-21 18:44:44 INFO  Main:30 - Application started
+2023-06-21 18:44:44 ERROR Main:31 - An error occurred
+2023-06-21 18:44:49 INFO  MyModel:125 - Computer Name: LAPTOP-RFBIP71C
+2023-06-21 18:44:49 INFO  MyModel:129 - Maze Generator Properties : 
+2023-06-21 18:44:49 INFO  MyModel:130 - Number of Rows : 11
+2023-06-21 18:44:49 INFO  MyModel:131 - Number of Columns : 11
+2023-06-21 18:44:52 INFO  MyModel:287 - Maze Solver Properties : 
+	 threadPoolSize=2
+	 mazeSearchingAlgorithm=BreadthFirstSearch
+	 mazeGeneratingAlgorithm=MyMazeGenerator
+2023-06-21 18:55:49 INFO  Main:30 - Application started
+2023-06-21 18:55:54 INFO  MyModel:125 - Computer Name: LAPTOP-RFBIP71C
+2023-06-21 18:55:54 INFO  MyModel:129 - Maze Generator Properties : 
+2023-06-21 18:55:54 INFO  MyModel:130 - Number of Rows : 11
+2023-06-21 18:55:54 INFO  MyModel:131 - Number of Columns : 11
+2023-06-21 18:56:22 INFO  Main:30 - Application started
+2023-06-21 18:57:12 INFO  MyModel:125 - Computer Name: LAPTOP-RFBIP71C
+2023-06-21 18:57:12 INFO  MyModel:129 - Maze Generator Properties : 
+2023-06-21 18:57:12 INFO  MyModel:130 - Number of Rows : 10
+2023-06-21 18:57:12 INFO  MyModel:131 - Number of Columns : 10
+2023-06-21 18:57:56 INFO  Main:30 - Application started
+2023-06-21 18:58:02 INFO  MyModel:125 - Computer Name: LAPTOP-RFBIP71C
+2023-06-21 18:58:02 INFO  MyModel:129 - Maze Generator Properties : 
+2023-06-21 18:58:02 INFO  MyModel:130 - Number of Rows : 11
+2023-06-21 18:58:02 INFO  MyModel:131 - Number of Columns : 11
+2023-06-21 18:58:14 INFO  MyModel:287 - Maze Solver Properties : 
+	 threadPoolSize=2
+	 mazeSearchingAlgorithm=BreadthFirstSearch
+	 mazeGeneratingAlgorithm=MyMazeGenerator
+2023-06-21 18:58:21 INFO  Main:30 - Application started
+2023-06-21 18:59:08 INFO  MyModel:125 - Computer Name: LAPTOP-RFBIP71C
+2023-06-21 18:59:08 INFO  MyModel:129 - Maze Generator Properties : 
+2023-06-21 18:59:08 INFO  MyModel:130 - Number of Rows : 10
+2023-06-21 18:59:08 INFO  MyModel:131 - Number of Columns : 10
+2023-06-21 19:00:01 INFO  Main:30 - Application started
+2023-06-21 19:07:20 INFO  Main:30 - Application started
+2023-06-21 19:08:05 INFO  MyModel:125 - Computer Name: LAPTOP-RFBIP71C
+2023-06-21 19:08:05 INFO  MyModel:129 - Maze Generator Properties : 
+2023-06-21 19:08:05 INFO  MyModel:130 - Number of Rows : 12
+2023-06-21 19:08:05 INFO  MyModel:131 - Number of Columns : 12
+2023-06-21 19:08:34 INFO  Main:30 - Application started
+2023-06-21 19:08:53 INFO  MyModel:125 - Computer Name: LAPTOP-RFBIP71C
+2023-06-21 19:08:53 INFO  MyModel:129 - Maze Generator Properties : 
+2023-06-21 19:08:53 INFO  MyModel:130 - Number of Rows : 12
+2023-06-21 19:08:53 INFO  MyModel:131 - Number of Columns : 12
+2023-06-21 19:09:06 INFO  Main:30 - Application started

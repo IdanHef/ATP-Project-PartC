@@ -12,10 +12,13 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.Optional;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 public class Main extends Application {
 
     private MyViewController view;
+    private static final Logger logger = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
         launch(args);
@@ -23,6 +26,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
+        PropertyConfigurator.configure("log4j.properties");
+        logger.info("Application started");
+        //logger.error("An error occurred");
+
+
         MyModel model = new MyModel();
         MyViewModel viewModel = new MyViewModel(model);
         model.addObserver(viewModel);

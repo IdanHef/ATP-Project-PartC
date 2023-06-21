@@ -6,6 +6,7 @@ import IO.MyDecompressorInputStream;
 import Server.Server;
 import Server.ServerStrategyGenerateMaze;
 import Server.ServerStrategySolveSearchProblem;
+import View.Main;
 import ViewModel.MyViewModel;
 import algorithms.mazeGenerators.Maze;
 import algorithms.mazeGenerators.Position;
@@ -13,6 +14,7 @@ import algorithms.search.AState;
 import algorithms.search.MazeState;
 import algorithms.search.Solution;
 import javafx.scene.input.KeyCode;
+import org.apache.log4j.Logger;
 
 import java.io.*;
 import java.net.InetAddress;
@@ -21,6 +23,8 @@ import java.util.ArrayList;
 import java.util.Observable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 /*
 responsible for all the function part
@@ -40,6 +44,7 @@ public class MyModel extends Observable implements IModel {
     private String dir;
     private ExecutorService threadPool = Executors.newCachedThreadPool();
 
+    private static final Logger logger = Logger.getLogger(MyModel.class);
     private static int portNumGenerate = 5402;
     private static int portNumSolve = 6400;
 
@@ -112,6 +117,19 @@ public class MyModel extends Observable implements IModel {
                         characterPositionRow = UpdatePos.getRowIndex();
                         endPosition = maze.getGoalPosition();
                         MazeToArr(maze);
+
+                        //write here
+                            try {
+                            InetAddress localhost = InetAddress.getLocalHost();
+                            String computerName = localhost.getHostName();
+                            logger.info("Computer Name: " + computerName);
+                        } catch (UnknownHostException e) {
+                            e.printStackTrace();
+                        }
+                        logger.info("Maze Generator Properties : ");
+                        logger.info("Number of Rows : " + maze.getMyMaze().length);
+                        logger.info("Number of Columns : " + maze.getMyMaze()[0].length);
+
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -261,7 +279,12 @@ public class MyModel extends Observable implements IModel {
                                 mazeSolutionArr[1][i] = ((MazeState) (mazeSolutionSteps.get(i))).getCol();
                             }
                         }
+                        String mazeProperties = "Maze Solver Properties : \n" +
+                                "\t threadPoolSize=2\n" +
+                                "\t mazeSearchingAlgorithm=BreadthFirstSearch\n" +
+                                "\t mazeGeneratingAlgorithm=MyMazeGenerator";
 
+                        logger.info(mazeProperties);
                         setChanged();
                         notifyObservers();
                     } catch (Exception e) {

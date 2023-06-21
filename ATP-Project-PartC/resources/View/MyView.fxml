@@ -11,6 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import View.MazeDisplay?>
+
 <BorderPane onKeyPressed="#KeyPressed" prefHeight="600.0" prefWidth="800.0" stylesheets="@button.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
     <top>
         <VBox maxHeight="-Infinity" maxWidth="Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="800.0" stylesheets="@button.css" BorderPane.alignment="CENTER">
