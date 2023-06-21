@@ -1,0 +1,35 @@
+.label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "8bitoperator JVE Regular";
+    -fx-font-size: 18px;
+}
+.root {
+    -fx-background-color: black;
+}
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: orange;
+    -fx-font-family: "8bitoperator JVE Regular";
+    -fx-font-size: 14px;
+    -fx-letter-spacing: 2px;
+    -fx-min-width: 100%;
+    -fx-pref-width: 120;
+    -fx-alignment: center;
+    -fx-border-width: 2;
+    -fx-border-color: #ff9900;
+    -fx-padding: 5 10;
+    -fx-transition-duration: 0.2s;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-text-fill: #ffff33;
+    -fx-border-color: #ffff33;
+
+}
+
+.text {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "8bitoperator JVE Regular";
+    -fx-font-size: 18px;
+}

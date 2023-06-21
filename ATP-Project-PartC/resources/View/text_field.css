@@ -1,0 +1,8 @@
+
+.text-field {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "8bitoperator JVE Regular";
+    -fx-font-size: 24px;
+    -fx-background-color: #000000;
+    -fx-border-color: #FFFFFF;
+}

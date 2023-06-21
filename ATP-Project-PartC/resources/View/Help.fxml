@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Help">
+    <children>
+        <TabPane prefHeight="234.0" prefWidth="484.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <tabs>
+                <Tab text="Game Instruction">
+                    <content>
+                        <AnchorPane prefHeight="205.0" prefWidth="523.0">
+                            <children>
+                                <Button fx:id="exit2" layoutX="176.0" layoutY="164.0" mnemonicParsing="false" onAction="#closew" text="Close Window" />
+                                <Label layoutX="8.0" layoutY="6.0" prefHeight="177.0" prefWidth="436.0" text="Hello, and welcome to our Undertale Maze Game!!!&#10;To start the game, please enter the size of the maze you want&#10;to generate, and then click on the &quot;Generate&quot; button.&#10;Your goal is to find a path from the start position to the&#10;end position. If you want to get the solution, please use the&#10;&quot;Solve&quot; button and follow the signs with your character&#10;enjoy!" AnchorPane.bottomAnchor="29.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Controllers">
+                    <content>
+                        <AnchorPane>
+                            <children>
+                                <Label contentDisplay="CENTER" layoutX="49.0" prefHeight="159.0" prefWidth="427.0" text="Hello, in order to play the game, &#10;make sure your numlock is working&#10;Up = 8                 Diagnal Up And Left = 7&#10;Down = 2            Diagnal Up And Right = 9&#10;Left = 4               Diagnal Down And Left = 1&#10;Right = 6             Diagnal Down And Right = 3">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="exit" layoutX="171.0" layoutY="166.0" mnemonicParsing="false" onAction="#closew" text="Close Window" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
