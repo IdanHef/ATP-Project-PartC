@@ -28,8 +28,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws IOException {
         PropertyConfigurator.configure("log4j.properties");
         logger.info("Application started");
-        //logger.error("An error occurred");
-
+        
 
         MyModel model = new MyModel();
         MyViewModel viewModel = new MyViewModel(model);
