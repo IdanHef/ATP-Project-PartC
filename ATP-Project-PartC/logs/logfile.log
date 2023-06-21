@@ -53,3 +53,12 @@ mazeGeneratingAlgorithm=MyMazeGenerator
 2023-06-21 19:08:53 INFO  MyModel:130 - Number of Rows : 12
 2023-06-21 19:08:53 INFO  MyModel:131 - Number of Columns : 12
 2023-06-21 19:09:06 INFO  Main:30 - Application started
+2023-06-21 19:15:05 INFO  Main:30 - Application started
+2023-06-21 19:15:10 INFO  MyModel:125 - Computer Name: LAPTOP-RFBIP71C
+2023-06-21 19:15:10 INFO  MyModel:129 - Maze Generator Properties : 
+2023-06-21 19:15:10 INFO  MyModel:130 - Number of Rows : 12
+2023-06-21 19:15:10 INFO  MyModel:131 - Number of Columns : 12
+2023-06-21 19:15:12 INFO  MyModel:287 - Maze Solver Properties : 
+	 threadPoolSize=2
+	 mazeSearchingAlgorithm=BreadthFirstSearch
+	 mazeGeneratingAlgorithm=MyMazeGenerator
